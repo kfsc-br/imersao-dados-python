@@ -6,7 +6,7 @@ import plotly.express as px
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
 st.set_page_config(
     page_title="Dashboard de Salários na Área de Dados",
-    page_icon="📊",
+    page_icon="👑",
     layout="wide",
 )
 
@@ -162,5 +162,5 @@ with col_graf4:
         st.warning("Nenhum dado para exibir no gráfico de países.")
 
 # --- Tabela de Dados Detalhados ---
-st.subheader("Dados Detalhados")
+st.subheader("💵Dados Detalhados")
 st.dataframe(df_filtrado)
