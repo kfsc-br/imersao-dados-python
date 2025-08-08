@@ -152,7 +152,7 @@ with col_graf4:
             media_ds_pais,
             locations="residencia_iso3",
             color="usd",
-            color_continuous_scale="rdylgn",
+            color_continuous_scale="deep",
             title="Salário médio de Cientista de Dados por país",
             labels={"usd": "Salário médio (USD)", "residencia_iso3": "País"},
         )
